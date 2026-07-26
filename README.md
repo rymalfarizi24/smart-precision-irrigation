@@ -1,5 +1,19 @@
 # 🌱 Autoencoder-Based Fault Detection & Diagnosis for Smart Precision Irrigation
 
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLetsgobois24%2Fsmart-irrigation-precision%2Fmain%2Flaravel%2Fcomposer.json&query=require.laravel%2Fframework&logo=laravel&logoColor=%23FF2D20&label=Laravel&color=%23FF2D20)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLetsgobois24%2Fsmart-irrigation-precision%2Fmain%2Flaravel%2Fcomposer.json&query=require.livewire%2Flivewire&logo=livewire&logoColor=%234E56A6&label=Livewire&color=%234E56A6)
+![Static Badge](https://img.shields.io/badge/%5E0.135-build?logo=fastapi&logoColor=%23009688&label=FastAPI&color=%23009688)
+![Static Badge](https://img.shields.io/badge/%5E3.14-build?logo=keras&logoColor=%23D00000&label=Keras&color=%23D00000)
+![Static Badge](https://img.shields.io/badge/3.8.0--core-build?logo=influxdb&logoColor=%2322ADF6&label=InfluxDB&color=%2322ADF6)
+![Static Badge](https://img.shields.io/badge/10.4.32-build?logo=mariadb&logoColor=%23003545&label=MariaDB&color=%23003545)
+![Static Badge](https://img.shields.io/badge/29.4.2-build?logo=docker&logoColor=%232496ED&label=Docker&color=%232496ED)
+
+
+
+
+
+
+
 An end-to-end **IoT-enabled Smart Precision Irrigation** system featuring an **Autoencoder-based Fault Detection and Diagnosis (FDD)** framework for avocado cultivation. This project integrates embedded systems, machine learning, and a modern web platform to detect irrigation anomalies, diagnose potential faults, and provide real-time monitoring and notifications.
 
 ---
