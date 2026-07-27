@@ -155,7 +155,7 @@ The diagnosis module supports detection of several irrigation-related faults, in
 
 The Autoencoder model used in this project is pre-trained. The complete machine learning pipeline is available in a separate repository:
 
-- **Model Training:** https://github.com/<username>/smart-irrigation-fdd-training
+- **Model Training:** https://github.com/Letsgobois24/smart-precision-irrigation-model.git
 
 ---
 
