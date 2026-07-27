@@ -7,34 +7,23 @@ import joblib
 # Load scaler dan model
 scaler = joblib.load("model/scaler.pkl")
 model = load_model("model/best_model.keras")
-
-# Urutan fitur HARUS sama dengan saat training
 features = ['moisture_before', 'moisture_after', 'duration', 'moisture_gain', 'moisture_rate']
 
 mse_threshold = 0.6523
 
 def irrigationDetection(data: dict):
     time_start = int(time.time() * 1000)
-
     df = pd.DataFrame([data], columns=features)
 
     scaler_df = scaler.transform(df)
-
     recon_data = model.predict(scaler_df, verbose=0)
-
     error_data = np.abs(scaler_df - recon_data)
-
     mean_error = np.mean(error_data)
     fault_ratio = mean_error / mse_threshold
-
     dominant_index = np.argmax(error_data)
     dominant_feature = features[dominant_index]
-
     max_error = np.max(error_data)
-
     prediction_time = int(time.time() * 1000) - time_start
-
-    print('Prediction Dilakukan')
 
     return {
         "event_id": data["event_id"],
@@ -59,7 +48,6 @@ def irrigationDetection(data: dict):
         "prediction_time": prediction_time,
         "time": int(time.time() * 1000),
     }
-
 
 def getSeverity(fault_ratio: float):
     if fault_ratio > 2.5:
