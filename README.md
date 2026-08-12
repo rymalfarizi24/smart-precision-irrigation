@@ -43,7 +43,9 @@ The complete system includes IoT devices, a backend service, databases, machine 
 ---
 
 ## 🏗️ System Architecture
-<img width="377" height="736" alt="image" src="https://github.com/user-attachments/assets/3f9b7954-1e86-4b75-92f3-5af7d2a9802b" />
+<p align="center">
+  <img height="600" alt="image" src="https://github.com/user-attachments/assets/3f9b7954-1e86-4b75-92f3-5af7d2a9802b" />
+</p>
 
 ---
 
